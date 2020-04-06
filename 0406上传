@@ -1,0 +1,9 @@
+创建本地项目并上传
+首先在GitHub上New一个repository，命名demo之后选择initialize with a README.md来创建新的仓库
+创建完成后，在终端进行如下操作：
+$ cd targetDirectory   #进入想要上传的文件目录下
+$ git init     #初始化git
+$ git add .        #添加当前目录下所有文件
+$ git commit -m "commit message"   #提交项目到本地仓库，并添加更新信息
+$ git remote add origin https://github/YourGitHubName/demo.git 
+$ git push -u origin master        #推送本地仓库到远程仓库
